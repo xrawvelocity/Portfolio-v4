@@ -13,7 +13,7 @@ function App() {
     return (
         <>
             <StarfieldAnimation
-                numParticles='62.5'
+                numParticles='50'
                 style={{
                     position: 'fixed',
                     top: 0,

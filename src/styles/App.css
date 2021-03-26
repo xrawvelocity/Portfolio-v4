@@ -45,7 +45,7 @@ section {
 
 .smoke {
     transform: translate(-114.28px, -119px) scaleY(1);
-    animation: smokeAnim 6s infinite ease-in-out;
+    animation: smokeAnim 3s infinite ease-in-out;
 }
 
 @keyframes smokeAnim {
@@ -81,18 +81,18 @@ section {
 .Victor {
     transform: rotateZ(1deg);
     transform-origin: bottom;
-    animation: VictorAnim 2s infinite cubic-bezier(0.83, 0, 0.17, 1);
+    animation: VictorAnim 3s infinite ease-in-out;
 }
 
 @keyframes VictorAnim {
     0% {
-        transform: rotateZ(6deg)
+        transform: rotateZ(-6deg)
     }
     50% {
-        transform: rotateZ(-6deg)
+        transform: rotateZ(6deg)
     }  
     100% {
-        transform: rotateZ(6deg)
+        transform: rotateZ(-6deg)
     }
     
 }

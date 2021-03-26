@@ -14,6 +14,9 @@ import DescriptionIcon from '@material-ui/icons/Description'
 import LaptopMacIcon from '@material-ui/icons/LaptopMac'
 import RepeatIcon from '@material-ui/icons/Repeat'
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney'
+import WebIcon from '@material-ui/icons/Web'
+import LaunchIcon from '@material-ui/icons/Launch'
+import GroupIcon from '@material-ui/icons/Group'
 import Paper from '@material-ui/core/Paper'
 import Typography from '@material-ui/core/Typography'
 
@@ -26,8 +29,8 @@ export default function CustomizedTimeline() {
     <Timeline align="alternate">
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <ForumIcon />
+          <TimelineDot style={{ color: '#111', backgroundColor: '#fd3' }}>
+            <ForumIcon style={{ fontSize: '24px' }} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -47,8 +50,8 @@ export default function CustomizedTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <DescriptionIcon />
+          <TimelineDot style={{ color: '#111', backgroundColor: '#fd3' }}>
+            <DescriptionIcon style={{ fontSize: '24px' }} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -68,8 +71,8 @@ export default function CustomizedTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <AttachMoneyIcon />
+          <TimelineDot style={{ color: '#111', backgroundColor: '#fd3' }}>
+            <WebIcon style={{ fontSize: '24px' }} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -88,8 +91,8 @@ export default function CustomizedTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <LaptopMacIcon />
+          <TimelineDot style={{ color: '#111', backgroundColor: '#fd3' }}>
+            <LaptopMacIcon style={{ fontSize: '24px' }} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -109,8 +112,8 @@ export default function CustomizedTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <RepeatIcon />
+          <TimelineDot style={{ color: '#111', backgroundColor: '#fd3' }}>
+            <RepeatIcon style={{ fontSize: '24px' }} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -130,8 +133,8 @@ export default function CustomizedTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <RepeatIcon />
+          <TimelineDot style={{ color: '#111', backgroundColor: '#fd3' }}>
+            <LaunchIcon style={{ fontSize: '24px' }} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -150,8 +153,8 @@ export default function CustomizedTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <AttachMoneyIcon />
+          <TimelineDot style={{ color: '#111', backgroundColor: '#fd3' }}>
+            <GroupIcon style={{ fontSize: '24px' }} />
           </TimelineDot>
         </TimelineSeparator>
         <TimelineContent>
