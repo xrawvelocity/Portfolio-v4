@@ -12,7 +12,7 @@ import Questions from './components/structure/Questions';
 function App() {
     return (
         <>
-            <StarfieldAnimation
+            {/* <StarfieldAnimation
                 numParticles='50'
                 style={{
                     position: 'fixed',
@@ -22,7 +22,7 @@ function App() {
                     height: '100%',
                     zIndex: '-10'
                 }}
-            />
+            /> */}
             <Hero />
             <Examples />
             <Process />
